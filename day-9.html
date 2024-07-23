@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Dom Manipulation -->
+    <div class="container">
+      <h1 class="heading">Heading</h1>
+    </div>
+  </body>
+  <script>
+    // JS CODE IS HERE
+    // Slect an HTML element by its Class and change its text content
+    document.querySelector(".heading").innerHTML = "new text";
+
+    // Slect an HTML element by its Class and and chnage its background color
+    document.querySelector(".container").style.backgroundColor = "yellow";
+    document.removeChild
+
+    const newDiv = document.createElement("div");
+    newDiv.textContent = "New Div Create";
+    document.body.appendChild(newDiv);
+
+
+    const newListItem = document.createElement("li");
+    newListItem.textContent = "New List Item";
+    const ulList = document.getElementById("myList");
+    ulList.appendChild(newListItem);
+  </script>
+</html>
